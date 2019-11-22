@@ -1,0 +1,1481 @@
+(base) Jasper:DevinFiles n$ git init
+Initialized empty Git repository in /Users/n/Desktop/Class Files/Rails Class/DevinFiles/.git/
+(base) Jasper:DevinFiles n$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+(base) Jasper:DevinFiles n$ rails new todotoday
+      create  
+      create  README.md
+      create  Rakefile
+      create  .ruby-version
+      create  config.ru
+      create  .gitignore
+      create  Gemfile
+         run  git init from "."
+Initialized empty Git repository in /Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/.git/
+      create  package.json
+      create  app
+      create  app/assets/config/manifest.js
+      create  app/assets/stylesheets/application.css
+      create  app/channels/application_cable/channel.rb
+      create  app/channels/application_cable/connection.rb
+      create  app/controllers/application_controller.rb
+      create  app/helpers/application_helper.rb
+      create  app/javascript/channels/consumer.js
+      create  app/javascript/channels/index.js
+      create  app/javascript/packs/application.js
+      create  app/jobs/application_job.rb
+      create  app/mailers/application_mailer.rb
+      create  app/models/application_record.rb
+      create  app/views/layouts/application.html.erb
+      create  app/views/layouts/mailer.html.erb
+      create  app/views/layouts/mailer.text.erb
+      create  app/assets/images/.keep
+      create  app/controllers/concerns/.keep
+      create  app/models/concerns/.keep
+      create  bin
+      create  bin/rails
+      create  bin/rake
+      create  bin/setup
+      create  bin/yarn
+      create  config
+      create  config/routes.rb
+      create  config/application.rb
+      create  config/environment.rb
+      create  config/cable.yml
+      create  config/puma.rb
+      create  config/spring.rb
+      create  config/storage.yml
+      create  config/environments
+      create  config/environments/development.rb
+      create  config/environments/production.rb
+      create  config/environments/test.rb
+      create  config/initializers
+      create  config/initializers/application_controller_renderer.rb
+      create  config/initializers/assets.rb
+      create  config/initializers/backtrace_silencers.rb
+      create  config/initializers/content_security_policy.rb
+      create  config/initializers/cookies_serializer.rb
+      create  config/initializers/cors.rb
+      create  config/initializers/filter_parameter_logging.rb
+      create  config/initializers/inflections.rb
+      create  config/initializers/mime_types.rb
+      create  config/initializers/new_framework_defaults_6_0.rb
+      create  config/initializers/wrap_parameters.rb
+      create  config/locales
+      create  config/locales/en.yml
+      create  config/master.key
+      append  .gitignore
+      create  config/boot.rb
+      create  config/database.yml
+      create  db
+      create  db/seeds.rb
+      create  lib
+      create  lib/tasks
+      create  lib/tasks/.keep
+      create  lib/assets
+      create  lib/assets/.keep
+      create  log
+      create  log/.keep
+      create  public
+      create  public/404.html
+      create  public/422.html
+      create  public/500.html
+      create  public/apple-touch-icon-precomposed.png
+      create  public/apple-touch-icon.png
+      create  public/favicon.ico
+      create  public/robots.txt
+      create  tmp
+      create  tmp/.keep
+      create  tmp/cache
+      create  tmp/cache/assets
+      create  vendor
+      create  vendor/.keep
+      create  test/fixtures
+      create  test/fixtures/.keep
+      create  test/fixtures/files
+      create  test/fixtures/files/.keep
+      create  test/controllers
+      create  test/controllers/.keep
+      create  test/mailers
+      create  test/mailers/.keep
+      create  test/models
+      create  test/models/.keep
+      create  test/helpers
+      create  test/helpers/.keep
+      create  test/integration
+      create  test/integration/.keep
+      create  test/channels/application_cable/connection_test.rb
+      create  test/test_helper.rb
+      create  test/system
+      create  test/system/.keep
+      create  test/application_system_test_case.rb
+      create  storage
+      create  storage/.keep
+      create  tmp/storage
+      create  tmp/storage/.keep
+      remove  config/initializers/cors.rb
+      remove  config/initializers/new_framework_defaults_6_0.rb
+         run  bundle install
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+Fetching gem metadata from https://rubygems.org/............
+Fetching gem metadata from https://rubygems.org/.
+Resolving dependencies....
+Fetching rake 13.0.1
+Installing rake 13.0.1
+Using concurrent-ruby 1.1.5
+Using i18n 1.7.0
+Using minitest 5.13.0
+Using thread_safe 0.3.6
+Using tzinfo 1.2.5
+Using zeitwerk 2.2.1
+Using activesupport 6.0.1
+Using builder 3.2.3
+Using erubi 1.9.0
+Using mini_portile2 2.4.0
+Fetching nokogiri 1.10.5
+Installing nokogiri 1.10.5 with native extensions
+Errno::EACCES: Permission denied @ dir_s_mkdir -
+/Users/n/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/extensions/x86_64-darwin-18/2.6.0-static/nokogiri-1.10.5
+An error occurred while installing nokogiri (1.10.5), and Bundler
+cannot continue.
+Make sure that `gem install nokogiri -v '1.10.5' --source
+'https://rubygems.org/'` succeeds before bundling.
+
+In Gemfile:
+  rails was resolved to 6.0.1, which depends on
+    actioncable was resolved to 6.0.1, which depends on
+      actionpack was resolved to 6.0.1, which depends on
+        actionview was resolved to 6.0.1, which depends on
+          rails-dom-testing was resolved to 2.0.3, which depends on
+            nokogiri
+         run  bundle binstubs bundler
+Resolving dependencies...
+The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mingw32, x86-mswin32, x64-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`.
+         run  bundle exec spring binstub --all
+* bin/rake: Spring inserted
+* bin/rails: Spring inserted
+       rails  webpacker:install
+RAILS_ENV=development environment is not defined in config/webpacker.yml, falling back to production environment
+      create  config/webpacker.yml
+Copying webpack core config
+      create  config/webpack
+      create  config/webpack/development.js
+      create  config/webpack/environment.js
+      create  config/webpack/production.js
+      create  config/webpack/test.js
+Copying postcss.config.js to app root directory
+      create  postcss.config.js
+Copying babel.config.js to app root directory
+      create  babel.config.js
+Copying .browserslistrc to app root directory
+      create  .browserslistrc
+The JavaScript app source directory already exists
+       apply  /Users/n/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/webpacker-4.0.7/lib/install/binstubs.rb
+  Copying binstubs
+       exist    bin
+      create    bin/webpack
+      create    bin/webpack-dev-server
+      append  .gitignore
+Installing all JavaScript dependencies [4.0.7]
+         run  yarn add @rails/webpacker from "."
+yarn add v1.19.1
+info No lockfile found.
+[1/4] 🔍  Resolving packages...
+warning @rails/webpacker > webpack > watchpack > chokidar > fsevents@1.2.9: One of your dependencies needs to upgrade to fsevents v2: 1) Proper nodejs v10+ support 2) No more fetching binaries from AWS, smaller package size
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+[4/4] 🔨  Building fresh packages...
+success Saved lockfile.
+success Saved 603 new dependencies.
+info Direct dependencies
+├─ @rails/actioncable@6.0.1
+├─ @rails/activestorage@6.0.1
+├─ @rails/ujs@6.0.1
+├─ @rails/webpacker@4.2.0
+└─ turbolinks@5.2.0
+info All dependencies
+├─ @babel/core@7.7.2
+├─ @babel/helper-builder-binary-assignment-operator-visitor@7.7.0
+├─ @babel/helper-call-delegate@7.7.0
+├─ @babel/helper-create-class-features-plugin@7.7.0
+├─ @babel/helper-define-map@7.7.0
+├─ @babel/helper-explode-assignable-expression@7.7.0
+├─ @babel/helper-get-function-arity@7.7.0
+├─ @babel/helper-regex@7.5.5
+├─ @babel/helper-replace-supers@7.7.0
+├─ @babel/helper-wrap-function@7.7.0
+├─ @babel/helpers@7.7.0
+├─ @babel/highlight@7.5.0
+├─ @babel/plugin-proposal-async-generator-functions@7.7.0
+├─ @babel/plugin-proposal-class-properties@7.7.0
+├─ @babel/plugin-proposal-dynamic-import@7.7.0
+├─ @babel/plugin-proposal-json-strings@7.2.0
+├─ @babel/plugin-proposal-optional-catch-binding@7.2.0
+├─ @babel/plugin-proposal-unicode-property-regex@7.7.0
+├─ @babel/plugin-syntax-top-level-await@7.7.0
+├─ @babel/plugin-transform-arrow-functions@7.2.0
+├─ @babel/plugin-transform-async-to-generator@7.7.0
+├─ @babel/plugin-transform-block-scoped-functions@7.2.0
+├─ @babel/plugin-transform-block-scoping@7.6.3
+├─ @babel/plugin-transform-classes@7.7.0
+├─ @babel/plugin-transform-computed-properties@7.2.0
+├─ @babel/plugin-transform-dotall-regex@7.7.0
+├─ @babel/plugin-transform-duplicate-keys@7.5.0
+├─ @babel/plugin-transform-exponentiation-operator@7.2.0
+├─ @babel/plugin-transform-for-of@7.4.4
+├─ @babel/plugin-transform-function-name@7.7.0
+├─ @babel/plugin-transform-literals@7.2.0
+├─ @babel/plugin-transform-member-expression-literals@7.2.0
+├─ @babel/plugin-transform-modules-amd@7.5.0
+├─ @babel/plugin-transform-modules-commonjs@7.7.0
+├─ @babel/plugin-transform-modules-systemjs@7.7.0
+├─ @babel/plugin-transform-modules-umd@7.7.0
+├─ @babel/plugin-transform-named-capturing-groups-regex@7.7.0
+├─ @babel/plugin-transform-new-target@7.4.4
+├─ @babel/plugin-transform-object-super@7.5.5
+├─ @babel/plugin-transform-parameters@7.4.4
+├─ @babel/plugin-transform-property-literals@7.2.0
+├─ @babel/plugin-transform-reserved-words@7.2.0
+├─ @babel/plugin-transform-runtime@7.6.2
+├─ @babel/plugin-transform-shorthand-properties@7.2.0
+├─ @babel/plugin-transform-spread@7.6.2
+├─ @babel/plugin-transform-sticky-regex@7.2.0
+├─ @babel/plugin-transform-template-literals@7.4.4
+├─ @babel/plugin-transform-typeof-symbol@7.2.0
+├─ @babel/plugin-transform-unicode-regex@7.7.0
+├─ @babel/preset-env@7.7.1
+├─ @babel/runtime@7.7.2
+├─ @rails/actioncable@6.0.1
+├─ @rails/activestorage@6.0.1
+├─ @rails/ujs@6.0.1
+├─ @rails/webpacker@4.2.0
+├─ @types/parse-json@4.0.0
+├─ @types/q@1.5.2
+├─ @webassemblyjs/floating-point-hex-parser@1.8.5
+├─ @webassemblyjs/helper-code-frame@1.8.5
+├─ @webassemblyjs/helper-fsm@1.8.5
+├─ @webassemblyjs/helper-wasm-section@1.8.5
+├─ @webassemblyjs/wasm-edit@1.8.5
+├─ @webassemblyjs/wasm-opt@1.8.5
+├─ @xtuc/ieee754@1.2.0
+├─ abbrev@1.1.1
+├─ acorn@6.3.0
+├─ aggregate-error@3.0.1
+├─ ajv-errors@1.0.1
+├─ ajv@6.10.2
+├─ amdefine@1.0.1
+├─ ansi-styles@3.2.1
+├─ anymatch@2.0.0
+├─ are-we-there-yet@1.1.5
+├─ argparse@1.0.10
+├─ arr-flatten@1.1.0
+├─ array-find-index@1.0.2
+├─ asn1.js@4.10.1
+├─ asn1@0.2.4
+├─ assert@1.5.0
+├─ assign-symbols@1.0.0
+├─ async-each@1.0.3
+├─ async-foreach@0.1.3
+├─ asynckit@0.4.0
+├─ atob@2.1.2
+├─ autoprefixer@9.7.2
+├─ aws-sign2@0.7.0
+├─ aws4@1.8.0
+├─ babel-loader@8.0.6
+├─ babel-plugin-macros@2.7.0
+├─ base@0.11.2
+├─ base64-js@1.3.1
+├─ bcrypt-pbkdf@1.0.2
+├─ big.js@5.2.2
+├─ binary-extensions@1.13.1
+├─ block-stream@0.0.9
+├─ boolbase@1.0.0
+├─ brace-expansion@1.1.11
+├─ braces@2.3.2
+├─ browserify-aes@1.2.0
+├─ browserify-cipher@1.0.1
+├─ browserify-des@1.0.2
+├─ browserify-sign@4.0.4
+├─ browserify-zlib@0.2.0
+├─ buffer-xor@1.0.3
+├─ buffer@4.9.2
+├─ builtin-status-codes@3.0.0
+├─ cacache@11.3.3
+├─ cache-base@1.0.1
+├─ caller-callsite@2.0.0
+├─ caller-path@2.0.0
+├─ callsites@2.0.0
+├─ camelcase-keys@2.1.0
+├─ caniuse-lite@1.0.30001011
+├─ case-sensitive-paths-webpack-plugin@2.2.0
+├─ caseless@0.12.0
+├─ chokidar@2.1.8
+├─ chownr@1.1.3
+├─ chrome-trace-event@1.0.2
+├─ class-utils@0.3.6
+├─ clean-stack@2.2.0
+├─ cliui@5.0.0
+├─ clone-deep@4.0.1
+├─ coa@2.0.2
+├─ code-point-at@1.1.0
+├─ collection-visit@1.0.0
+├─ color-convert@1.9.3
+├─ color-name@1.1.3
+├─ color-string@1.5.3
+├─ color@3.1.2
+├─ combined-stream@1.0.8
+├─ commander@2.20.3
+├─ compression-webpack-plugin@3.0.0
+├─ concat-map@0.0.1
+├─ concat-stream@1.6.2
+├─ console-browserify@1.2.0
+├─ console-control-strings@1.1.0
+├─ constants-browserify@1.0.0
+├─ convert-source-map@1.7.0
+├─ copy-concurrently@1.0.5
+├─ copy-descriptor@0.1.1
+├─ core-js-compat@3.4.2
+├─ core-js@3.4.2
+├─ core-util-is@1.0.2
+├─ create-ecdh@4.0.3
+├─ create-hmac@1.1.7
+├─ cross-spawn@6.0.5
+├─ crypto-browserify@3.12.0
+├─ css-blank-pseudo@0.1.4
+├─ css-color-names@0.0.4
+├─ css-declaration-sorter@4.0.1
+├─ css-has-pseudo@0.10.0
+├─ css-loader@3.2.0
+├─ css-prefers-color-scheme@3.1.1
+├─ css-select-base-adapter@0.1.1
+├─ css-select@2.1.0
+├─ css-unit-converter@1.1.1
+├─ css-what@3.2.1
+├─ cssdb@4.4.0
+├─ cssnano-preset-default@4.0.7
+├─ cssnano-util-raw-cache@4.0.1
+├─ cssnano-util-same-parent@4.0.1
+├─ cssnano@4.1.10
+├─ csso@4.0.2
+├─ currently-unhandled@0.4.1
+├─ cyclist@1.0.1
+├─ dashdash@1.14.1
+├─ debug@2.6.9
+├─ decamelize@1.2.0
+├─ decode-uri-component@0.2.0
+├─ deep-extend@0.6.0
+├─ delayed-stream@1.0.0
+├─ delegates@1.0.0
+├─ des.js@1.0.1
+├─ detect-file@1.0.0
+├─ detect-libc@1.0.3
+├─ diffie-hellman@5.0.3
+├─ dom-serializer@0.2.2
+├─ domain-browser@1.2.0
+├─ domelementtype@1.3.1
+├─ domutils@1.7.0
+├─ dot-prop@4.2.0
+├─ duplexify@3.7.1
+├─ ecc-jsbn@0.1.2
+├─ electron-to-chromium@1.3.310
+├─ emoji-regex@7.0.3
+├─ emojis-list@2.1.0
+├─ enhanced-resolve@4.1.0
+├─ entities@2.0.0
+├─ errno@0.1.7
+├─ error-ex@1.3.2
+├─ es-abstract@1.16.0
+├─ es-to-primitive@1.2.1
+├─ escape-string-regexp@1.0.5
+├─ eslint-scope@4.0.3
+├─ esprima@4.0.1
+├─ esrecurse@4.2.1
+├─ estraverse@4.3.0
+├─ events@3.0.0
+├─ execa@1.0.0
+├─ expand-brackets@2.1.4
+├─ expand-tilde@2.0.2
+├─ extend@3.0.2
+├─ extglob@2.0.4
+├─ extsprintf@1.3.0
+├─ fast-deep-equal@2.0.1
+├─ fast-json-stable-stringify@2.0.0
+├─ file-loader@4.3.0
+├─ fill-range@4.0.0
+├─ find-cache-dir@2.1.0
+├─ findup-sync@3.0.0
+├─ flatted@2.0.1
+├─ flatten@1.0.3
+├─ flush-write-stream@1.1.1
+├─ for-in@1.0.2
+├─ forever-agent@0.6.1
+├─ form-data@2.3.3
+├─ from2@2.3.0
+├─ fs-minipass@2.0.0
+├─ fs.realpath@1.0.0
+├─ fsevents@1.2.9
+├─ fstream@1.0.12
+├─ gauge@2.7.4
+├─ gaze@1.1.3
+├─ get-caller-file@2.0.5
+├─ get-stream@4.1.0
+├─ get-value@2.0.6
+├─ getpass@0.1.7
+├─ glob-parent@3.1.0
+├─ glob@7.1.6
+├─ global-modules@2.0.0
+├─ global-prefix@3.0.0
+├─ globule@1.2.1
+├─ har-schema@2.0.0
+├─ har-validator@5.1.3
+├─ has-ansi@2.0.0
+├─ has-symbols@1.0.1
+├─ has-unicode@2.0.1
+├─ has-value@1.0.0
+├─ has@1.0.3
+├─ hash.js@1.1.7
+├─ hex-color-regex@1.1.0
+├─ hmac-drbg@1.0.1
+├─ hosted-git-info@2.8.5
+├─ hsl-regex@1.0.0
+├─ hsla-regex@1.0.0
+├─ html-comment-regex@1.1.2
+├─ http-signature@1.2.0
+├─ https-browserify@1.0.0
+├─ iconv-lite@0.4.24
+├─ icss-utils@4.1.1
+├─ ieee754@1.1.13
+├─ ignore-walk@3.0.3
+├─ import-cwd@2.1.0
+├─ import-fresh@2.0.0
+├─ import-from@2.1.0
+├─ import-local@2.0.0
+├─ in-publish@2.0.0
+├─ indent-string@2.1.0
+├─ infer-owner@1.0.4
+├─ inflight@1.0.6
+├─ ini@1.3.5
+├─ interpret@1.2.0
+├─ invariant@2.2.4
+├─ invert-kv@2.0.0
+├─ is-absolute-url@2.1.0
+├─ is-accessor-descriptor@1.0.0
+├─ is-arrayish@0.2.1
+├─ is-binary-path@1.0.1
+├─ is-color-stop@1.1.0
+├─ is-data-descriptor@1.0.0
+├─ is-date-object@1.0.1
+├─ is-descriptor@1.0.2
+├─ is-directory@0.3.1
+├─ is-extglob@2.1.1
+├─ is-finite@1.0.2
+├─ is-obj@1.0.1
+├─ is-plain-obj@1.1.0
+├─ is-plain-object@2.0.4
+├─ is-regex@1.0.4
+├─ is-resolvable@1.1.0
+├─ is-stream@1.1.0
+├─ is-svg@3.0.0
+├─ is-symbol@1.0.3
+├─ is-typedarray@1.0.0
+├─ is-utf8@0.2.1
+├─ is-windows@1.0.2
+├─ is-wsl@1.1.0
+├─ isarray@1.0.0
+├─ isexe@2.0.0
+├─ isstream@0.1.2
+├─ jest-worker@24.9.0
+├─ js-base64@2.5.1
+├─ js-levenshtein@1.1.6
+├─ js-tokens@4.0.0
+├─ jsesc@2.5.2
+├─ json-schema-traverse@0.4.1
+├─ json-schema@0.2.3
+├─ json-stringify-safe@5.0.1
+├─ json5@2.1.1
+├─ jsprim@1.4.1
+├─ last-call-webpack-plugin@3.0.0
+├─ lcid@2.0.0
+├─ lines-and-columns@1.1.6
+├─ load-json-file@1.1.0
+├─ loader-runner@2.4.0
+├─ locate-path@3.0.0
+├─ lodash.get@4.4.2
+├─ lodash.has@4.5.2
+├─ lodash.memoize@4.1.2
+├─ lodash.template@4.5.0
+├─ lodash.templatesettings@4.2.0
+├─ lodash.uniq@4.5.0
+├─ lodash@4.17.15
+├─ loose-envify@1.4.0
+├─ loud-rejection@1.6.0
+├─ make-dir@2.1.0
+├─ mamacro@0.0.3
+├─ map-age-cleaner@0.1.3
+├─ map-obj@1.0.1
+├─ map-visit@1.0.0
+├─ mdn-data@2.0.4
+├─ mem@4.3.0
+├─ memory-fs@0.4.1
+├─ meow@3.7.0
+├─ merge-stream@2.0.0
+├─ miller-rabin@4.0.1
+├─ mime-db@1.42.0
+├─ mime-types@2.1.25
+├─ mimic-fn@2.1.0
+├─ mini-css-extract-plugin@0.8.0
+├─ minimalistic-crypto-utils@1.0.1
+├─ minimatch@3.0.4
+├─ minimist@1.2.0
+├─ minipass-collect@1.0.2
+├─ minipass-flush@1.0.5
+├─ minipass-pipeline@1.2.2
+├─ minizlib@1.3.3
+├─ mixin-deep@1.3.2
+├─ mkdirp@0.5.1
+├─ ms@2.1.2
+├─ nan@2.14.0
+├─ nanomatch@1.2.13
+├─ needle@2.4.0
+├─ nice-try@1.0.5
+├─ node-gyp@3.8.0
+├─ node-libs-browser@2.2.1
+├─ node-pre-gyp@0.12.0
+├─ node-releases@1.1.41
+├─ node-sass@4.13.0
+├─ nopt@3.0.6
+├─ normalize-package-data@2.5.0
+├─ normalize-range@0.1.2
+├─ normalize-url@1.9.1
+├─ npm-bundled@1.0.6
+├─ npm-packlist@1.4.6
+├─ npm-run-path@2.0.2
+├─ npmlog@4.1.2
+├─ nth-check@1.0.2
+├─ num2fraction@1.2.2
+├─ oauth-sign@0.9.0
+├─ object-assign@4.1.1
+├─ object-copy@0.1.0
+├─ object-inspect@1.7.0
+├─ object-keys@1.1.1
+├─ object.assign@4.1.0
+├─ object.getownpropertydescriptors@2.0.3
+├─ object.values@1.1.0
+├─ optimize-css-assets-webpack-plugin@5.0.3
+├─ os-browserify@0.3.0
+├─ os-homedir@1.0.2
+├─ os-locale@3.1.0
+├─ os-tmpdir@1.0.2
+├─ osenv@0.1.5
+├─ p-defer@1.0.0
+├─ p-finally@1.0.0
+├─ p-is-promise@2.1.0
+├─ p-limit@2.2.1
+├─ p-locate@3.0.0
+├─ p-map@3.0.0
+├─ p-try@2.2.0
+├─ pako@1.0.10
+├─ parallel-transform@1.2.0
+├─ parent-module@1.0.1
+├─ parse-json@4.0.0
+├─ parse-passwd@1.0.0
+├─ pascalcase@0.1.1
+├─ path-browserify@0.0.1
+├─ path-complete-extname@1.0.0
+├─ path-dirname@1.0.2
+├─ path-exists@3.0.0
+├─ path-key@2.0.1
+├─ path-parse@1.0.6
+├─ path-type@4.0.0
+├─ performance-now@2.1.0
+├─ pinkie@2.0.4
+├─ pnp-webpack-plugin@1.5.0
+├─ posix-character-classes@0.1.1
+├─ postcss-attribute-case-insensitive@4.0.1
+├─ postcss-calc@7.0.1
+├─ postcss-color-functional-notation@2.0.1
+├─ postcss-color-gray@5.0.0
+├─ postcss-color-hex-alpha@5.0.3
+├─ postcss-color-mod-function@3.0.3
+├─ postcss-color-rebeccapurple@4.0.1
+├─ postcss-colormin@4.0.3
+├─ postcss-convert-values@4.0.1
+├─ postcss-custom-media@7.0.8
+├─ postcss-custom-properties@8.0.11
+├─ postcss-custom-selectors@5.1.2
+├─ postcss-dir-pseudo-class@5.0.0
+├─ postcss-discard-comments@4.0.2
+├─ postcss-discard-duplicates@4.0.2
+├─ postcss-discard-empty@4.0.1
+├─ postcss-discard-overridden@4.0.1
+├─ postcss-double-position-gradients@1.0.0
+├─ postcss-env-function@2.0.2
+├─ postcss-flexbugs-fixes@4.1.0
+├─ postcss-focus-visible@4.0.0
+├─ postcss-focus-within@3.0.0
+├─ postcss-font-variant@4.0.0
+├─ postcss-gap-properties@2.0.0
+├─ postcss-image-set-function@3.0.1
+├─ postcss-import@12.0.1
+├─ postcss-initial@3.0.2
+├─ postcss-lab-function@2.0.1
+├─ postcss-load-config@2.1.0
+├─ postcss-loader@3.0.0
+├─ postcss-logical@3.0.0
+├─ postcss-media-minmax@4.0.0
+├─ postcss-merge-longhand@4.0.11
+├─ postcss-merge-rules@4.0.3
+├─ postcss-minify-font-values@4.0.2
+├─ postcss-minify-gradients@4.0.2
+├─ postcss-minify-params@4.0.2
+├─ postcss-minify-selectors@4.0.2
+├─ postcss-modules-extract-imports@2.0.0
+├─ postcss-modules-local-by-default@3.0.2
+├─ postcss-modules-scope@2.1.0
+├─ postcss-modules-values@3.0.0
+├─ postcss-nesting@7.0.1
+├─ postcss-normalize-charset@4.0.1
+├─ postcss-normalize-display-values@4.0.2
+├─ postcss-normalize-positions@4.0.2
+├─ postcss-normalize-repeat-style@4.0.2
+├─ postcss-normalize-string@4.0.2
+├─ postcss-normalize-timing-functions@4.0.2
+├─ postcss-normalize-unicode@4.0.1
+├─ postcss-normalize-url@4.0.1
+├─ postcss-normalize-whitespace@4.0.2
+├─ postcss-ordered-values@4.1.2
+├─ postcss-overflow-shorthand@2.0.0
+├─ postcss-page-break@2.0.0
+├─ postcss-place@4.0.1
+├─ postcss-preset-env@6.7.0
+├─ postcss-pseudo-class-any-link@6.0.0
+├─ postcss-reduce-initial@4.0.3
+├─ postcss-reduce-transforms@4.0.2
+├─ postcss-replace-overflow-wrap@3.0.0
+├─ postcss-safe-parser@4.0.1
+├─ postcss-selector-matches@4.0.0
+├─ postcss-selector-not@4.0.0
+├─ postcss-svgo@4.0.2
+├─ postcss-unique-selectors@4.0.1
+├─ prepend-http@1.0.4
+├─ private@0.1.8
+├─ process-nextick-args@2.0.1
+├─ process@0.11.10
+├─ prr@1.0.1
+├─ pseudomap@1.0.2
+├─ psl@1.4.0
+├─ public-encrypt@4.0.3
+├─ pumpify@1.5.1
+├─ punycode@1.4.1
+├─ q@1.5.1
+├─ qs@6.5.2
+├─ query-string@4.3.4
+├─ querystring-es3@0.2.1
+├─ querystring@0.2.0
+├─ randomfill@1.0.4
+├─ rc@1.2.8
+├─ read-cache@1.0.0
+├─ read-pkg@1.1.0
+├─ readdirp@2.2.1
+├─ redent@1.0.0
+├─ regenerate-unicode-properties@8.1.0
+├─ regenerator-runtime@0.13.3
+├─ regenerator-transform@0.14.1
+├─ regexpu-core@4.6.0
+├─ regjsgen@0.5.1
+├─ regjsparser@0.6.0
+├─ remove-trailing-separator@1.1.0
+├─ repeat-element@1.1.3
+├─ repeating@2.0.1
+├─ request@2.88.0
+├─ require-main-filename@2.0.0
+├─ resolve-cwd@2.0.0
+├─ resolve-dir@1.0.1
+├─ resolve-url@0.2.1
+├─ resolve@1.12.0
+├─ ret@0.1.15
+├─ rgb-regex@1.0.1
+├─ rgba-regex@1.0.0
+├─ rimraf@2.7.1
+├─ run-queue@1.0.3
+├─ safer-buffer@2.1.2
+├─ sass-graph@2.2.4
+├─ sass-loader@7.3.1
+├─ sax@1.2.4
+├─ scss-tokenizer@0.2.3
+├─ semver@5.7.1
+├─ serialize-javascript@1.9.1
+├─ set-value@2.0.1
+├─ setimmediate@1.0.5
+├─ shallow-clone@3.0.1
+├─ shebang-command@1.2.0
+├─ shebang-regex@1.0.0
+├─ simple-swizzle@0.2.2
+├─ snapdragon-node@2.1.1
+├─ snapdragon-util@3.0.1
+├─ sort-keys@1.1.2
+├─ source-list-map@2.0.1
+├─ source-map-resolve@0.5.2
+├─ source-map-support@0.5.16
+├─ source-map-url@0.4.0
+├─ spark-md5@3.0.0
+├─ spdx-correct@3.1.0
+├─ spdx-exceptions@2.2.0
+├─ split-string@3.1.0
+├─ sprintf-js@1.0.3
+├─ sshpk@1.16.1
+├─ stable@0.1.8
+├─ static-extend@0.1.2
+├─ stdout-stream@1.4.1
+├─ stream-browserify@2.0.2
+├─ stream-each@1.2.3
+├─ stream-http@2.8.3
+├─ strict-uri-encode@1.1.0
+├─ string_decoder@1.1.1
+├─ string.prototype.trimleft@2.1.0
+├─ string.prototype.trimright@2.1.0
+├─ strip-bom@2.0.0
+├─ strip-eof@1.0.0
+├─ strip-indent@1.0.1
+├─ strip-json-comments@2.0.1
+├─ style-loader@1.0.0
+├─ stylehacks@4.0.3
+├─ svgo@1.3.2
+├─ tar@2.2.2
+├─ terser-webpack-plugin@2.2.1
+├─ terser@4.4.0
+├─ through2@2.0.5
+├─ timers-browserify@2.0.11
+├─ timsort@0.3.0
+├─ to-arraybuffer@1.0.1
+├─ to-fast-properties@2.0.0
+├─ to-object-path@0.3.0
+├─ to-regex-range@2.1.1
+├─ tough-cookie@2.4.3
+├─ trim-newlines@1.0.0
+├─ true-case-path@1.0.3
+├─ ts-pnp@1.1.5
+├─ tslib@1.10.0
+├─ tty-browserify@0.0.0
+├─ tunnel-agent@0.6.0
+├─ turbolinks@5.2.0
+├─ tweetnacl@0.14.5
+├─ typedarray@0.0.6
+├─ unicode-canonical-property-names-ecmascript@1.0.4
+├─ unicode-match-property-ecmascript@1.0.4
+├─ unicode-match-property-value-ecmascript@1.1.0
+├─ unicode-property-aliases-ecmascript@1.0.5
+├─ union-value@1.0.1
+├─ unique-slug@2.0.2
+├─ unquote@1.1.1
+├─ unset-value@1.0.0
+├─ upath@1.2.0
+├─ uri-js@4.2.2
+├─ urix@0.1.0
+├─ url@0.11.0
+├─ use@3.1.1
+├─ util-deprecate@1.0.2
+├─ util.promisify@1.0.0
+├─ util@0.11.1
+├─ uuid@3.3.3
+├─ v8-compile-cache@2.0.3
+├─ validate-npm-package-license@3.0.4
+├─ vendors@1.0.3
+├─ verror@1.10.0
+├─ vm-browserify@1.1.2
+├─ watchpack@1.6.0
+├─ webpack-assets-manifest@3.1.1
+├─ webpack-cli@3.3.10
+├─ webpack@4.41.2
+├─ which-module@2.0.0
+├─ which@1.3.1
+├─ wide-align@1.1.3
+├─ worker-farm@1.7.0
+├─ wrap-ansi@5.1.0
+├─ xtend@4.0.2
+├─ yallist@3.1.1
+├─ yaml@1.7.2
+├─ yargs-parser@13.1.1
+└─ yargs@13.2.4
+✨  Done in 43.34s.
+Installing dev server for live reloading
+         run  yarn add --dev webpack-dev-server from "."
+yarn add v1.19.1
+[1/4] 🔍  Resolving packages...
+[2/4] 🚚  Fetching packages...
+[3/4] 🔗  Linking dependencies...
+warning "webpack-dev-server > webpack-dev-middleware@3.7.2" has unmet peer dependency "webpack@^4.0.0".
+warning " > webpack-dev-server@3.9.0" has unmet peer dependency "webpack@^4.0.0".
+[4/4] 🔨  Building fresh packages...
+success Saved lockfile.
+success Saved 101 new dependencies.
+info Direct dependencies
+└─ webpack-dev-server@3.9.0
+info All dependencies
+├─ @types/events@3.0.0
+├─ @types/glob@7.1.1
+├─ @types/minimatch@3.0.3
+├─ @types/node@12.12.11
+├─ accepts@1.3.7
+├─ ansi-colors@3.2.4
+├─ ansi-html@0.0.7
+├─ array-flatten@1.1.1
+├─ array-union@1.0.2
+├─ array-uniq@1.0.3
+├─ async-limiter@1.0.1
+├─ async@2.6.3
+├─ batch@0.6.1
+├─ body-parser@1.19.0
+├─ bonjour@3.5.0
+├─ buffer-indexof@1.1.1
+├─ cliui@4.1.0
+├─ compressible@2.0.17
+├─ compression@1.7.4
+├─ connect-history-api-fallback@1.6.0
+├─ content-disposition@0.5.3
+├─ cookie-signature@1.0.6
+├─ cookie@0.4.0
+├─ deep-equal@1.1.1
+├─ default-gateway@4.2.0
+├─ del@4.1.1
+├─ destroy@1.0.4
+├─ detect-node@2.0.4
+├─ dns-equal@1.0.0
+├─ dns-packet@1.3.1
+├─ dns-txt@2.0.2
+├─ ee-first@1.1.1
+├─ eventemitter3@4.0.0
+├─ eventsource@1.0.7
+├─ express@4.17.1
+├─ faye-websocket@0.10.0
+├─ finalhandler@1.1.2
+├─ follow-redirects@1.9.0
+├─ forwarded@0.1.2
+├─ globby@6.1.0
+├─ handle-thing@2.0.0
+├─ hpack.js@2.1.6
+├─ html-entities@1.2.1
+├─ http-deceiver@1.2.7
+├─ http-parser-js@0.4.10
+├─ http-proxy-middleware@0.19.1
+├─ http-proxy@1.18.0
+├─ internal-ip@4.3.0
+├─ ip-regex@2.1.0
+├─ ip@1.1.5
+├─ ipaddr.js@1.9.1
+├─ is-absolute-url@3.0.3
+├─ is-arguments@1.0.4
+├─ is-path-cwd@2.2.0
+├─ is-path-in-cwd@2.1.0
+├─ is-path-inside@2.1.0
+├─ json3@3.3.3
+├─ killable@1.0.1
+├─ loglevel@1.6.6
+├─ media-typer@0.3.0
+├─ merge-descriptors@1.0.1
+├─ methods@1.1.2
+├─ mime@2.4.4
+├─ multicast-dns-service-types@1.1.0
+├─ multicast-dns@6.2.3
+├─ negotiator@0.6.2
+├─ node-forge@0.9.0
+├─ object-is@1.0.1
+├─ obuf@1.1.2
+├─ on-headers@1.0.2
+├─ opn@5.5.0
+├─ original@1.0.2
+├─ p-map@2.1.0
+├─ p-retry@3.0.1
+├─ path-is-inside@1.0.2
+├─ path-to-regexp@0.1.7
+├─ portfinder@1.0.25
+├─ proxy-addr@2.0.5
+├─ querystringify@2.1.1
+├─ raw-body@2.4.0
+├─ regexp.prototype.flags@1.2.0
+├─ retry@0.12.0
+├─ select-hose@2.0.0
+├─ selfsigned@1.10.7
+├─ serve-index@1.9.1
+├─ serve-static@1.14.1
+├─ sockjs-client@1.4.0
+├─ sockjs@0.3.19
+├─ spdy-transport@3.0.0
+├─ spdy@4.0.1
+├─ thunky@1.1.0
+├─ type-is@1.6.18
+├─ unpipe@1.0.0
+├─ utils-merge@1.0.1
+├─ wbuf@1.7.3
+├─ webpack-dev-middleware@3.7.2
+├─ webpack-dev-server@3.9.0
+├─ websocket-extensions@0.1.3
+├─ ws@6.2.1
+├─ yargs-parser@11.1.1
+└─ yargs@12.0.5
+✨  Done in 8.51s.
+Webpacker successfully installed 🎉 🍰
+(base) Jasper:DevinFiles n$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	todotoday/
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Jasper:DevinFiles n$ cd todotoday/
+(base) Jasper:todotoday n$ git init
+Reinitialized existing Git repository in /Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/.git/
+(base) Jasper:todotoday n$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.browserslistrc
+	.gitignore
+	.ruby-version
+	Gemfile
+	Gemfile.lock
+	README.md
+	Rakefile
+	app/
+	babel.config.js
+	bin/
+	config.ru
+	config/
+	db/
+	lib/
+	log/
+	package.json
+	postcss.config.js
+	public/
+	storage/
+	test/
+	tmp/
+	vendor/
+	yarn.lock
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Jasper:todotoday n$ git config --global user.name
+Arjun
+(base) Jasper:todotoday n$ git config --local user.name dpm-instruct
+(base) Jasper:todotoday n$ git config --local user.name 
+dpm-instruct
+(base) Jasper:todotoday n$ git config --local user.email tardisexpress@gmail.com
+(base) Jasper:todotoday n$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.browserslistrc
+	.gitignore
+	.ruby-version
+	Gemfile
+	Gemfile.lock
+	README.md
+	Rakefile
+	app/
+	babel.config.js
+	bin/
+	config.ru
+	config/
+	db/
+	lib/
+	log/
+	package.json
+	postcss.config.js
+	public/
+	storage/
+	test/
+	tmp/
+	vendor/
+	yarn.lock
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Jasper:todotoday n$ git add .
+(base) Jasper:todotoday n$ git commit -m "Rails boilerplate, initial setup"
+[master (root-commit) d4085d2] Rails boilerplate, initial setup
+ 91 files changed, 9139 insertions(+)
+ create mode 100644 .browserslistrc
+ create mode 100644 .gitignore
+ create mode 100644 .ruby-version
+ create mode 100644 Gemfile
+ create mode 100644 Gemfile.lock
+ create mode 100644 README.md
+ create mode 100644 Rakefile
+ create mode 100644 app/assets/config/manifest.js
+ create mode 100644 app/assets/images/.keep
+ create mode 100644 app/assets/stylesheets/application.css
+ create mode 100644 app/channels/application_cable/channel.rb
+ create mode 100644 app/channels/application_cable/connection.rb
+ create mode 100644 app/controllers/application_controller.rb
+ create mode 100644 app/controllers/concerns/.keep
+ create mode 100644 app/helpers/application_helper.rb
+ create mode 100644 app/javascript/channels/consumer.js
+ create mode 100644 app/javascript/channels/index.js
+ create mode 100644 app/javascript/packs/application.js
+ create mode 100644 app/jobs/application_job.rb
+ create mode 100644 app/mailers/application_mailer.rb
+ create mode 100644 app/models/application_record.rb
+ create mode 100644 app/models/concerns/.keep
+ create mode 100644 app/views/layouts/application.html.erb
+ create mode 100644 app/views/layouts/mailer.html.erb
+ create mode 100644 app/views/layouts/mailer.text.erb
+ create mode 100644 babel.config.js
+ create mode 100755 bin/bundle
+ create mode 100755 bin/rails
+ create mode 100755 bin/rake
+ create mode 100755 bin/setup
+ create mode 100755 bin/spring
+ create mode 100755 bin/webpack
+ create mode 100755 bin/webpack-dev-server
+ create mode 100755 bin/yarn
+ create mode 100644 config.ru
+ create mode 100644 config/application.rb
+ create mode 100644 config/boot.rb
+ create mode 100644 config/cable.yml
+ create mode 100644 config/credentials.yml.enc
+ create mode 100644 config/database.yml
+ create mode 100644 config/environment.rb
+ create mode 100644 config/environments/development.rb
+ create mode 100644 config/environments/production.rb
+ create mode 100644 config/environments/test.rb
+ create mode 100644 config/initializers/application_controller_renderer.rb
+ create mode 100644 config/initializers/assets.rb
+ create mode 100644 config/initializers/backtrace_silencers.rb
+ create mode 100644 config/initializers/content_security_policy.rb
+ create mode 100644 config/initializers/cookies_serializer.rb
+ create mode 100644 config/initializers/filter_parameter_logging.rb
+ create mode 100644 config/initializers/inflections.rb
+ create mode 100644 config/initializers/mime_types.rb
+ create mode 100644 config/initializers/wrap_parameters.rb
+ create mode 100644 config/locales/en.yml
+ create mode 100644 config/puma.rb
+ create mode 100644 config/routes.rb
+ create mode 100644 config/spring.rb
+ create mode 100644 config/storage.yml
+ create mode 100644 config/webpack/development.js
+ create mode 100644 config/webpack/environment.js
+ create mode 100644 config/webpack/production.js
+ create mode 100644 config/webpack/test.js
+ create mode 100644 config/webpacker.yml
+ create mode 100644 db/seeds.rb
+ create mode 100644 lib/assets/.keep
+ create mode 100644 lib/tasks/.keep
+ create mode 100644 log/.keep
+ create mode 100644 package.json
+ create mode 100644 postcss.config.js
+ create mode 100644 public/404.html
+ create mode 100644 public/422.html
+ create mode 100644 public/500.html
+ create mode 100644 public/apple-touch-icon-precomposed.png
+ create mode 100644 public/apple-touch-icon.png
+ create mode 100644 public/favicon.ico
+ create mode 100644 public/robots.txt
+ create mode 100644 storage/.keep
+ create mode 100644 test/application_system_test_case.rb
+ create mode 100644 test/channels/application_cable/connection_test.rb
+ create mode 100644 test/controllers/.keep
+ create mode 100644 test/fixtures/.keep
+ create mode 100644 test/fixtures/files/.keep
+ create mode 100644 test/helpers/.keep
+ create mode 100644 test/integration/.keep
+ create mode 100644 test/mailers/.keep
+ create mode 100644 test/models/.keep
+ create mode 100644 test/system/.keep
+ create mode 100644 test/test_helper.rb
+ create mode 100644 tmp/.keep
+ create mode 100644 vendor/.keep
+ create mode 100644 yarn.lock
+(base) Jasper:todotoday n$ git remote
+(base) Jasper:todotoday n$ git remote https://github.com/dpm-instruct/psychic-octo-garbanzo.git
+error: Unknown subcommand: https://github.com/dpm-instruct/psychic-octo-garbanzo.git
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+(base) Jasper:todotoday n$ git remote add https://github.com/dpm-instruct/psychic-octo-garbanzo.git
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+(base) Jasper:todotoday n$ git remote
+(base) Jasper:todotoday n$ git remote add origin https://github.com/dpm-instruct/psychic-octo-garbanzo.git
+(base) Jasper:todotoday n$ git remote
+origin
+(base) Jasper:todotoday n$ git remote origin
+error: Unknown subcommand: origin
+usage: git remote [-v | --verbose]
+   or: git remote add [-t <branch>] [-m <master>] [-f] [--tags | --no-tags] [--mirror=<fetch|push>] <name> <url>
+   or: git remote rename <old> <new>
+   or: git remote remove <name>
+   or: git remote set-head <name> (-a | --auto | -d | --delete | <branch>)
+   or: git remote [-v | --verbose] show [-n] <name>
+   or: git remote prune [-n | --dry-run] <name>
+   or: git remote [-v | --verbose] update [-p | --prune] [(<group> | <remote>)...]
+   or: git remote set-branches [--add] <name> <branch>...
+   or: git remote get-url [--push] [--all] <name>
+   or: git remote set-url [--push] <name> <newurl> [<oldurl>]
+   or: git remote set-url --add <name> <newurl>
+   or: git remote set-url --delete <name> <url>
+
+    -v, --verbose         be verbose; must be placed before a subcommand
+
+(base) Jasper:todotoday n$ git remote -v show origin
+* remote origin
+  Fetch URL: https://github.com/dpm-instruct/psychic-octo-garbanzo.git
+  Push  URL: https://github.com/dpm-instruct/psychic-octo-garbanzo.git
+  HEAD branch: (unknown)
+(base) Jasper:todotoday n$ git status
+On branch master
+nothing to commit, working tree clean
+(base) Jasper:todotoday n$ git push -u origin master
+remote: Permission to dpm-instruct/psychic-octo-garbanzo.git denied to ar9jun.
+fatal: unable to access 'https://github.com/dpm-instruct/psychic-octo-garbanzo.git/': The requested URL returned error: 403
+(base) Jasper:todotoday n$ git config --local user.name
+dpm-instruct
+(base) Jasper:todotoday n$ git config --local credential.helper ""
+(base) Jasper:todotoday n$ git push -u origin master
+Username for 'https://github.com': dpm-instruct
+Password for 'https://dpm-instruct@github.com': 
+Enumerating objects: 103, done.
+Counting objects: 100% (103/103), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (85/85), done.
+Writing objects: 100% (103/103), 145.43 KiB | 3.83 MiB/s, done.
+Total 103 (delta 3), reused 0 (delta 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/dpm-instruct/psychic-octo-garbanzo.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+(base) Jasper:todotoday n$ git checkout -h
+usage: git checkout [<options>] <branch>
+   or: git checkout [<options>] [<branch>] -- <file>...
+
+    -q, --quiet           suppress progress reporting
+    -b <branch>           create and checkout a new branch
+    -B <branch>           create/reset and checkout a branch
+    -l                    create reflog for new branch
+    --detach              detach HEAD at named commit
+    -t, --track           set upstream info for new branch
+    --orphan <new-branch>
+                          new unparented branch
+    -2, --ours            checkout our version for unmerged files
+    -3, --theirs          checkout their version for unmerged files
+    -f, --force           force checkout (throw away local modifications)
+    -m, --merge           perform a 3-way merge with the new branch
+    --overwrite-ignore    update ignored files (default)
+    --conflict <style>    conflict style (merge or diff3)
+    -p, --patch           select hunks interactively
+    --ignore-skip-worktree-bits
+                          do not limit pathspecs to sparse entries only
+    --ignore-other-worktrees
+                          do not check if another worktree is holding the given ref
+    --recurse-submodules[=<checkout>]
+                          control recursive updating of submodules
+    --progress            force progress reporting
+
+(base) Jasper:todotoday n$ git checkout -b addlists
+Switched to a new branch 'addlists'
+(base) Jasper:todotoday n$ git status
+On branch addlists
+nothing to commit, working tree clean
+(base) Jasper:todotoday n$ rails g model list
+Running via Spring preloader in process 23404
+      invoke  active_record
+      create    db/migrate/20191122002536_create_lists.rb
+      create    app/models/list.rb
+      invoke    test_unit
+      create      test/models/list_test.rb
+      create      test/fixtures/lists.yml
+(base) Jasper:todotoday n$ git status
+On branch addlists
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	app/models/list.rb
+	db/migrate/
+	test/fixtures/lists.yml
+	test/models/list_test.rb
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Jasper:todotoday n$ git add app/models/list.rb 
+(base) Jasper:todotoday n$ git status
+On branch addlists
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   app/models/list.rb
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	db/migrate/
+	test/fixtures/lists.yml
+	test/models/list_test.rb
+
+(base) Jasper:todotoday n$ git add db/migrate/
+(base) Jasper:todotoday n$ ls db/migrate/
+20191122002536_create_lists.rb
+(base) Jasper:todotoday n$ git add test/fixtures/lists.yml 
+(base) Jasper:todotoday n$ git add test/models/list_test.rb 
+(base) Jasper:todotoday n$ git status
+On branch addlists
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   app/models/list.rb
+	new file:   db/migrate/20191122002536_create_lists.rb
+	new file:   test/fixtures/lists.yml
+	new file:   test/models/list_test.rb
+
+(base) Jasper:todotoday n$ git commit -m "Generated model and migration with according files"
+[addlists 42ba544] Generated model and migration with according files
+ 4 files changed, 28 insertions(+)
+ create mode 100644 app/models/list.rb
+ create mode 100644 db/migrate/20191122002536_create_lists.rb
+ create mode 100644 test/fixtures/lists.yml
+ create mode 100644 test/models/list_test.rb
+(base) Jasper:todotoday n$ git status
+On branch addlists
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   db/migrate/20191122002536_create_lists.rb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) Jasper:todotoday n$ git add db/migrate/20191122002536_create_lists.rb 
+(base) Jasper:todotoday n$ git commit -m "Added string column to database migration"
+[addlists 748423e] Added string column to database migration
+ 1 file changed, 1 insertion(+)
+(base) Jasper:todotoday n$ rails db:migrate
+== 20191122002536 CreateLists: migrating ======================================
+-- create_table(:lists)
+rails aborted!
+StandardError: An error has occurred, this and all later migrations canceled:
+
+undefined method `title' for #<ActiveRecord::ConnectionAdapters::SQLite3::TableDefinition:0x00007fa3f2a5f7b0>
+/Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/db/migrate/20191122002536_create_lists.rb:4:in `block in change'
+/Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/db/migrate/20191122002536_create_lists.rb:3:in `change'
+/Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/bin/rails:9:in `<top (required)>'
+/Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+
+Caused by:
+NoMethodError: undefined method `title' for #<ActiveRecord::ConnectionAdapters::SQLite3::TableDefinition:0x00007fa3f2a5f7b0>
+/Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/db/migrate/20191122002536_create_lists.rb:4:in `block in change'
+/Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/db/migrate/20191122002536_create_lists.rb:3:in `change'
+/Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/bin/rails:9:in `<top (required)>'
+/Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/bin/spring:15:in `<top (required)>'
+bin/rails:3:in `load'
+bin/rails:3:in `<main>'
+Tasks: TOP => db:migrate
+(See full trace by running task with --trace)
+(base) Jasper:todotoday n$ git status
+On branch addlists
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   db/migrate/20191122002536_create_lists.rb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) Jasper:todotoday n$ git add db/migrate/20191122002536_create_lists.rb 
+(base) Jasper:todotoday n$ git commit -m "Fixed backwards method and name in migration"
+[addlists 43f449c] Fixed backwards method and name in migration
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+(base) Jasper:todotoday n$ rails db:migrate
+== 20191122002536 CreateLists: migrating ======================================
+-- create_table(:lists)
+   -> 0.0037s
+== 20191122002536 CreateLists: migrated (0.0039s) =============================
+
+(base) Jasper:todotoday n$ git status
+On branch addlists
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	db/schema.rb
+
+nothing added to commit but untracked files present (use "git add" to track)
+(base) Jasper:todotoday n$ git add db/schema.rb 
+(base) Jasper:todotoday n$ git commit -m "Migrated, created schema file"
+[addlists aeb0279] Migrated, created schema file
+ 1 file changed, 21 insertions(+)
+ create mode 100644 db/schema.rb
+(base) Jasper:todotoday n$ git status
+On branch addlists
+nothing to commit, working tree clean
+(base) Jasper:todotoday n$ git push origin addlists
+Username for 'https://github.com': dpm-instruct
+Password for 'https://dpm-instruct@github.com': 
+Enumerating objects: 34, done.
+Counting objects: 100% (34/34), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (27/27), 3.06 KiB | 1.02 MiB/s, done.
+Total 27 (delta 8), reused 0 (delta 0)
+remote: Resolving deltas: 100% (8/8), completed with 3 local objects.
+remote: 
+remote: Create a pull request for 'addlists' on GitHub by visiting:
+remote:      https://github.com/dpm-instruct/psychic-octo-garbanzo/pull/new/addlists
+remote: 
+remote: 
+remote: 
+remote: GitHub found 1 vulnerability on dpm-instruct/psychic-octo-garbanzo's default branch (1 low). To find out more, visit:
+remote:      https://github.com/dpm-instruct/psychic-octo-garbanzo/network/alerts
+remote: 
+To https://github.com/dpm-instruct/psychic-octo-garbanzo.git
+ * [new branch]      addlists -> addlists
+(base) Jasper:todotoday n$ git status
+On branch addlists
+nothing to commit, working tree clean
+(base) Jasper:todotoday n$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+(base) Jasper:todotoday n$ git pull origin master
+remote: Enumerating objects: 1, done.
+remote: Counting objects: 100% (1/1), done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), done.
+From https://github.com/dpm-instruct/psychic-octo-garbanzo
+ * branch            master     -> FETCH_HEAD
+   d4085d2..d040fdd  master     -> origin/master
+Updating d4085d2..d040fdd
+Fast-forward
+ app/models/list.rb                        |  2 ++
+ db/migrate/20191122002536_create_lists.rb |  9 +++++++++
+ db/schema.rb                              | 21 +++++++++++++++++++++
+ test/fixtures/lists.yml                   | 11 +++++++++++
+ test/models/list_test.rb                  |  7 +++++++
+ 5 files changed, 50 insertions(+)
+ create mode 100644 app/models/list.rb
+ create mode 100644 db/migrate/20191122002536_create_lists.rb
+ create mode 100644 db/schema.rb
+ create mode 100644 test/fixtures/lists.yml
+ create mode 100644 test/models/list_test.rb
+(base) Jasper:todotoday n$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+(base) Jasper:todotoday n$ git branch -d addlists
+Deleted branch addlists (was aeb0279).
+(base) Jasper:todotoday n$ git pull origin master
+remote: Enumerating objects: 9, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), done.
+From https://github.com/dpm-instruct/psychic-octo-garbanzo
+ * branch            master     -> FETCH_HEAD
+   d040fdd..6af10f2  master     -> origin/master
+Updating d040fdd..6af10f2
+Fast-forward
+ Gemfile.lock | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+(base) Jasper:todotoday n$ git branch
+* master
+(base) Jasper:todotoday n$ git checkout -b additems
+Switched to a new branch 'additems'
+(base) Jasper:todotoday n$ git branch
+* additems
+  master
+(base) Jasper:todotoday n$ git status
+On branch additems
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   app/views/layouts/application.html.erb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) Jasper:todotoday n$ git add app/views/layouts/application.html.erb 
+(base) Jasper:todotoday n$ git commit -m "Added sweet header to layout"
+[additems a26fde2] Added sweet header to layout
+ 1 file changed, 1 insertion(+)
+(base) Jasper:todotoday n$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+(base) Jasper:todotoday n$ git checkout -b headergoal
+Switched to a new branch 'headergoal'
+(base) Jasper:todotoday n$ git status
+On branch headergoal
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   app/views/layouts/application.html.erb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) Jasper:todotoday n$ git add app/views/layouts/application.html.erb 
+(base) Jasper:todotoday n$ git commit -m "Added header and changed title in application layout"
+[headergoal ee54330] Added header and changed title in application layout
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+(base) Jasper:todotoday n$ git branch
+  additems
+* headergoal
+  master
+(base) Jasper:todotoday n$ git checkout additems
+Switched to branch 'additems'
+(base) Jasper:todotoday n$ git merge headergoal
+Auto-merging app/views/layouts/application.html.erb
+CONFLICT (content): Merge conflict in app/views/layouts/application.html.erb
+Automatic merge failed; fix conflicts and then commit the result.
+(base) Jasper:todotoday n$ git status
+On branch additems
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+
+	both modified:   app/views/layouts/application.html.erb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) Jasper:todotoday n$ git add app/views/layouts/application.html.erb 
+(base) Jasper:todotoday n$ git commit -m "Picked proper title"
+[additems d755bee] Picked proper title
+(base) Jasper:todotoday n$ git status
+On branch additems
+nothing to commit, working tree clean
+(base) Jasper:todotoday n$ open .bash_history
+The file /Users/n/Desktop/Class Files/Rails Class/DevinFiles/todotoday/.bash_history does not exist.
+(base) Jasper:todotoday n$ cd ~
+(base) Jasper:~ n$ open .bash_history
+(base) Jasper:~ n$ 
